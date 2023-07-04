@@ -1,0 +1,45 @@
+python3 -W ignore js_analyzer.py -i https://static.bbc.co.uk/bbcdotcom/2.6.0/script/dist/bbcdotcom.dev.js -o cli
+
+------------------------------------
+
+cd /usr/lib/x86_64-linux-gnu/
+ln -s -f libc.a liblibc.a
+
+sudo python3 -W ignore sniffer.py
+
+-----------------------------------------------------------------------
+
+USE THESE:
+
+Web Links:
+
+HTTP Headers  ----->  https://writevibe.co
+Port Scan     ----->  writevibe.co
+Subdomain Enumeration    ---->   writevibe.co
+Content Discovery    ---->  https://writevibe.co
+XSS --> https://filehippo.com
+SQLi --> http://testphp.vulnweb.com/artists.php?artist=1
+SSRF --> https://writevibe.co
+Open Redirect  --> https://writevibe.co
+Bruteforce :
+    target_url = "http://testphp.vulnweb.com/login.php"
+    post_url = "http://testphp.vulnweb.com/userinfo.php"
+    username_field = "uname"
+    password_field = "pass"
+    username = test
+Wordpress --> https://writevibe.co
+Joomla --> https://theswingband.com
+Drupal --> https://scilms.com
+Javascript File Analyzer --> https://static.bbc.co.uk/bbcdotcom/2.6.0/script/dist/bbcdotcom.dev.js
+
+-----------------------------------------------------------------
+
+Network 
+
+Port Scan IP: 192.232.212.75
+range: 100 - 200
+
+Service Enumeration: 192.232.212.75
+range: 100 - 200
+
+Sniffer ---> Just go to google.com

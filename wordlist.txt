@@ -1,0 +1,6 @@
+wp-admin
+index.php
+wp-content
+testing
+abc
+robots.txt

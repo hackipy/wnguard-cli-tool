@@ -31,7 +31,7 @@ try:
             sys.exit(1)
         
         api_endpoint = 'https://otx.alienvault.com/api/v1/indicators/domain/'
-        api_key = 'b114f713c0d7610c9b113243e3fbd5534d95e304ba163e4c7c016a41801b9c98'
+        api_key = '<YOUR_API_KEY>'
         url = api_endpoint + domain + '/passive_dns'
         headers = {'X-OTX-API-KEY': api_key}
 
